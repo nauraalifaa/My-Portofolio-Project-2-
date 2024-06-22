@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Header Styles */
+header {
+    background: #d07d7daf;
+    color: black;
+    padding: 1px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#home {
+    background: white;
+}
+
+#about,
+#Organizationalexperience,
+#ProfessionalExperiences,
+#Achievements,
+#education,
+#skills,
+#portfolio,
+#contact {
+    background: #fff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input,
+form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    max-width: 400px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer div a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+    }
+}
